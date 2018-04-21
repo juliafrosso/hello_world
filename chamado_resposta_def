@@ -33,3 +33,13 @@ def by_three(number):
         return cube(number)
     else:
         return False
+
+---------
+
+def shut_down(s):
+    if s == 'yes':
+        return "Desligando"
+    elif s == 'no':
+        return "Desligamento abortado"
+    else:
+        return "Desculpe"
