@@ -4,12 +4,20 @@ def square(n):
     print "%d squared is %d." % (n, squared)
     return squared
     
-
 square(10)
 
+---------
 
 def power(base, exponent):  
     result = base**exponent
     print "%d elevado a %d e %d." % (base, exponent, result)
 
 power(37,4) 
+
+----------
+
+def one_good_turn(n):
+    return n + 1
+    
+def deserves_another(n):
+    return one_good_turn(n) + 2
