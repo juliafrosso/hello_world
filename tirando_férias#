@@ -1,0 +1,38 @@
+# função calcula preço hotel com relação a quantidade de noites
+def hotel_cost(nights):
+    hotel_cost = 140 * nights
+    return hotel_cost
+    
+# função calcula preço da passagem com relação ao destino (cidade escolhida)
+def plane_ride_cost(city):
+    if city == "Charlotte":
+        return 183
+    elif city == "Tampa":
+        return 220
+    elif city == "Pittsburgh":
+        return 222
+    elif city == "Los Angeles":
+        return 475
+    else:
+        return "Erro"
+
+# função calcula o valor do aluguel do carro com relação a quantidade de dias (importante notar que foram incluídos
+# os descontos referentes às quantidades de dias
+# se 7 ou + dias desconto de 50 reais
+# se 3 ou + dias desconto de 20 reais 
+# importante notar que o mais desconto deve vir antes, porque a linguagem só confere o elif se o if não for True
+def rental_car_cost(days):
+    rental_car_cost = 40 * days
+    if days >= 7:
+        return rental_car_cost - 50
+    elif days >= 3:
+        return rental_car_cost - 20
+    elif days < 3:
+        return rental_car_cost
+    else:
+        return "erro"
+        
+# a última função junta tudo, incluindo um pouco de dinheiro para alimentação, etc (spending_money)
+def trip_cost(city,days,spending_money):
+        return rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
+print trip_cost("Los Angeles",5,600)
