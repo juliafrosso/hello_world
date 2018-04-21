@@ -4,3 +4,5 @@ print math.sqrt(25)
 # import math + math. antes da função da raiz quadrada faz com que o Python "aprenda" matemática
 
 from math import sqrt
+from math import *
+# importar * significa importar TUDO de math (isso torna desnecessário repetir math. antes de cada função)
