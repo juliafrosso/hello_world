@@ -27,3 +27,17 @@ print absolute
 print type(50)
 print type(5.5)
 print type("it's a string, we know that")
+
+------------
+
+cucumbers = 100
+num_people = 6
+
+whole_cucumbers_per_person = cucumbers / num_people
+
+-----
+
+cucumbers = 100.
+num_people = 6
+
+float_cucumbers_per_person = cucumbers / num_people
