@@ -8,3 +8,12 @@ def square(n):
 
 square(10)
 # aqui foi atribuido o valor 10 a variável n, assim o sistema considera n = 10 e a substitui na equação o que resulta em 10**2 = 100
+
+
+def power(base, exponent):  
+# é possível uma função com mais de um argumento (eles são separados por vírgula)
+    result = base**exponent
+    print "%d elevado a %d e %d." % (base, exponent, result)
+
+power(37,4)
+# na hora de atribuir valores ao argumentos é só separar os valores por vírgula também (na ordem dada na função inicialmente)
