@@ -1,0 +1,10 @@
+def square(n):
+# def = função (essa função pode ser chamada várias vezes)
+  
+    squared = n**2
+    print "%d squared is %d." % (n, squared)
+    return squared
+    
+
+square(10)
+# aqui foi atribuido o valor 10 a variável n, assim o sistema considera n = 10 e a substitui na equação o que resulta em 10**2 = 100
