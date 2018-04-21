@@ -43,3 +43,12 @@ def shut_down(s):
         return "Desligamento abortado"
     else:
         return "Desculpe"
+
+
+-----------
+
+def distance_from_zero(qualquer_nome):
+    if type(qualquer_nome) == int or type(qualquer_nome) == float:
+        return abs(qualquer_nome)
+    else:
+        return "Nao"
