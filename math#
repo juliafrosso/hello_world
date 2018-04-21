@@ -7,3 +7,12 @@ from math import sqrt
 from math import *
 # importar * significa importar TUDO de math (isso torna desnecessário repetir math. antes de cada função, 
 # MAS ATENÇÃO, isso por tornar as coisas muito confusas, melhor evitar)
+
+-----------------------
+
+# função: máximo
+
+maximum = max(1,2,3,5,7,99,8777)
+
+print maximum
+# imprime o maior número
