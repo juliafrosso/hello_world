@@ -9,3 +9,9 @@ from math import *
 maximum = max(1,2,3,5,7,99,8777)
 
 print maximum
+
+-----------
+
+minimum = min(-1,4,-5,3,46)
+
+print minimum
