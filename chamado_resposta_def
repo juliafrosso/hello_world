@@ -6,3 +6,10 @@ def square(n):
     
 
 square(10)
+
+
+def power(base, exponent):  
+    result = base**exponent
+    print "%d elevado a %d e %d." % (base, exponent, result)
+
+power(37,4) 
