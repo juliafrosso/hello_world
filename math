@@ -15,3 +15,9 @@ print maximum
 minimum = min(-1,4,-5,3,46)
 
 print minimum
+
+-----------
+
+absolute = abs(-42)
+
+print absolute
