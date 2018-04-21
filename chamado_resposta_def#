@@ -28,3 +28,19 @@ def deserves_another(n):
     return one_good_turn(n) + 2
   
 # aqui a segunda função chamou a primeira
+
+------------
+
+def cube(number):
+    cube = number**3
+    return cube
+    
+def by_three(number):
+    if number % 3 == 0:
+        return cube(number)
+        # retorna a primeira função apenas que o número adicionado na variável for divisivel por 3
+        # note que usei % que resulta no resto da divisão, um número será divisível por 3 quando restar 0 
+    else:
+        return False
+        
+        
