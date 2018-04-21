@@ -1,0 +1,20 @@
+original = raw_input('Enter a word:')
+# raw_input('TEXTO') serve para que o usuário possa inserir algum dado
+word = original.lower()
+# .lower() serve para transformar tudo em minúsculo
+
+first = word[0]
+# a contagem em Python começa em 0
+
+new_word = word[1:len(word)] + first + 'ay'
+# len(insert_word_you_want_to_count) = mostra quantos caracteres compoem a string inserida
+
+if len(original) > 0 and original.isalpha():
+# isalpha() analisa se a variável possui letras e números (se possuir números apontará como "False"
+# and = F + F = F
+# and = F + T = F
+# and = T + T = T (para ser True, todos devem ser True)
+    print new_word
+    # não esquecer de sempre deixar os espaços
+else:
+    print 'empty'
