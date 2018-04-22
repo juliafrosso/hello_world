@@ -70,3 +70,10 @@ for fruta in prices:
 #fruta
 #preço da fruta
 #stock da fruta
+
+total = 0
+for key in prices:
+    total = total + prices[key] * stock[key]
+    print total
+    # isso irá imprimir o total dos preços contabilizando a quantia de cada produto
+    # total + total + total etc... soma todos os valores total e imprime
