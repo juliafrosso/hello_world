@@ -21,3 +21,11 @@ animals = "catdogfrog"
 cat  = animals[:3]  
 dog  = animals[3:6]              
 frog = animals[6:]   
+
+----------
+
+animals = ["tatu", "texugo", "pato", "emu", "raposa"]
+duck_index = animals.index("pato")
+
+
+animals.insert(duck_index,"cobra")
