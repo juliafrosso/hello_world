@@ -3,3 +3,12 @@ for number in a:
     if number % 2 == 0:
         print number
     
+---------------
+
+def fizz_count(x):
+    count = 0
+    
+    for var in x:
+        if var == "fizz":
+            count = count + 1
+    return count
