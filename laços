@@ -48,3 +48,8 @@ for fruta in prices:
     print fruta
     print "price: " + str(prices[fruta])
     print "stock: " + str(stock[fruta])
+
+total = 0
+for key in prices:
+    total = total + prices[key] * stock[key]
+    print total
