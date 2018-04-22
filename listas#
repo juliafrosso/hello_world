@@ -6,3 +6,22 @@ print "Somando os numeros nos indices 1 e 3..."
 print numbers[1] + numbers[3]
 
 # sempre lembrar que a contagem se inicia do zero (0)
+
+-------
+
+
+-------
+
+suitcase = ["oculos escuros", "chapeu", "passaporte", "laptop", "camisa", "sapatos"]
+# [0,1,2,3,4,5]
+
+first  = suitcase[0:2]  
+
+middle = suitcase[2:4]
+
+last   = suitcase[4:6]
+
+------------
+
+
+
