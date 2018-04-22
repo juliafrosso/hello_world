@@ -28,3 +28,13 @@ cat  = animals[:3]
 dog  = animals[3:6]              
 frog = animals[6:]   
 # quando não adicionado nada no final considera-se "até o fim" :] = termina noo último ítem 
+
+----------
+
+animals = ["tatu", "texugo", "pato", "emu", "raposa"]
+duck_index = animals.index("pato")
+#função que descobre qual a posição de duck
+
+
+animals.insert(duck_index,"cobra")
+# insere algo no lugar indicado dentro da lista, neste caso na posição de duck
