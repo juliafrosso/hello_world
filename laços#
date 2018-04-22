@@ -5,3 +5,12 @@ for number in a:
     #aqui if o número for par (ou seja, dividido por 2 resta 0)
     print number
     
+--------------
+
+def fizz_count(x):
+    count = 0
+    
+    for var in x:
+        if var == "fizz":
+            count = count + 1
+    return count
