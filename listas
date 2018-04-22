@@ -4,3 +4,15 @@ print "Somando os numeros nos indices 0 e 2..."
 print numbers[0] + numbers[2]
 print "Somando os numeros nos indices 1 e 3..."
 print numbers[1] + numbers[3]
+
+-------
+
+suitcase = ["oculos escuros", "chapeu", "passaporte", "laptop", "camisa", "sapatos"]
+
+first  = suitcase[0:2]  
+
+middle = suitcase[2:4]
+
+last   = suitcase[4:6]
+
+------------
