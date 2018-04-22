@@ -14,3 +14,32 @@ def fizz_count(x):
         if var == "fizz":
             count = count + 1
     return count
+
+------------
+
+for letter in "Codecademy":
+    print letter
+
+#C
+#o
+#d
+#e
+#c
+#a
+#d
+#e
+#m
+#y
+ 
+print
+print
+
+word = "E divertido programar!"
+
+for letter in word:
+    # Exiba apenas a letra i
+    if letter == "i":
+        print letter
+        
+        #i
+        #i
