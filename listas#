@@ -48,5 +48,18 @@ for number in my_list:
     print 2 * number
     # todas as variáveis da lista serão multiplicadas por 2
     
+--------------------------
     
-    
+start_list = [5, 3, 1, 2, 4]
+square_list = []
+# square_list no momento encontra-se vazia
+
+for number in start_list:
+    square_list.append(number**2)
+    #aqui se completa a square_list com a start_list ao quadrado
+    # .append adiciona uma lista inteira
+
+square_list.sort()
+# .sort() coloca os valores da lista em ordem
+
+print square_list
