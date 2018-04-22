@@ -38,3 +38,15 @@ duck_index = animals.index("pato")
 
 animals.insert(duck_index,"cobra")
 # insere algo no lugar indicado dentro da lista, neste caso na posição de duck
+
+-----------------------------------------
+
+my_list = [1,9,3,8,5,7]
+
+for number in my_list:
+# isso traz todas as variáveis adicionar na lista
+    print 2 * number
+    # todas as variáveis da lista serão multiplicadas por 2
+    
+    
+    
