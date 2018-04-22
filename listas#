@@ -9,13 +9,11 @@ print numbers[1] + numbers[3]
 
 -------
 
-
--------
-
 suitcase = ["oculos escuros", "chapeu", "passaporte", "laptop", "camisa", "sapatos"]
 # [0,1,2,3,4,5]
 
 first  = suitcase[0:2]  
+# inicia a contagem no 0 e vai até 2, sem contar com o 2, então imprimi apenas até o 1
 
 middle = suitcase[2:4]
 
