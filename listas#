@@ -21,5 +21,10 @@ last   = suitcase[4:6]
 
 ------------
 
+animals = "catdogfrog"
 
-
+cat  = animals[:3]  
+# quando não adicionado nada no início considera-se "desde" [: = inicia do zero (0)
+dog  = animals[3:6]              
+frog = animals[6:]   
+# quando não adicionado nada no final considera-se "até o fim" :] = termina noo último ítem 
