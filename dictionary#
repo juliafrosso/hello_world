@@ -1,0 +1,7 @@
+residents = {'Fradinho' : 104, 'Preguica' : 105, 'Piton de Burma' : 106}
+
+print residents['Fradinho'] 
+# Exibe o numero do quarto do fradinho
+
+print residents['Preguica']
+print residents['Piton de Burma']
