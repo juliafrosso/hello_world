@@ -43,3 +43,30 @@ for letter in word:
         
         #i
         #i
+        
+------------------
+
+prices = {
+    "banana": 4,
+    "maca": 2,
+    "laranja": 1.5,
+    "pera": 3
+}
+
+stock = {
+    "banana": 6,
+    "maca": 0,
+    "laranja": 32,
+    "pera": 15
+}
+
+for fruta in prices:
+    print fruta
+    print "price: " + str(prices[fruta])
+    print "stock: " + str(stock[fruta])
+    
+    
+# vai imprimir:
+#fruta
+#preço da fruta
+#stock da fruta
